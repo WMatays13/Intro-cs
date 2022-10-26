@@ -1,5 +1,5 @@
 int n = 0 ;
-int x = 0 ;
+int x = 1000 ;
 
 void setup() {
 size(1000,1000);
@@ -11,5 +11,5 @@ square(n,1,60);
 n = n + 5;
 
 square(1,x,60);
-x = x + 5 ;
+x = x - 5 ;
 }
